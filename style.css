@@ -96,13 +96,20 @@ section {
 
 /* Media queries */
 
-@media (max-width: 991px;) {
+@media (max-width: 991px) {
   html {
     font-size: 55%;
   }
 }
 
-@media (max-width: 768px;) {
+/*  */
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+/*  */
+@media (max-width: 768px) {
   #menu_btn {
     display: inline-block;
   }
@@ -124,11 +131,5 @@ section {
   .header .flex .navbar a {
     display: block;
     margin: 2rem;
-  }
-}
-
-@media (max-width: 450px;) {
-  html {
-    font-size: 50%;
   }
 }
